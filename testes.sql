@@ -348,7 +348,7 @@ alter table funcionario add
 
 drop table departamento cascade constraints;
 select * from funcionario;
-select * from departamento;
+select * from departamento; 
 
 
 
