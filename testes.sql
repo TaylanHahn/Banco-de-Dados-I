@@ -7,8 +7,7 @@ Create table departamento
 select *
 from departamento;
 
---dicionário; Armazena meta dados ou seja dados sobre dados. Conjunto
---de tabelas que tem as informções sobre os objetos do banco de dados;
+--dicionário; Armazena meta dados ou seja dados sobre dados. Conjunto de tabelas que tem as informções sobre os objetos do banco de dados;
 
 select table_name
 from user_tables;
