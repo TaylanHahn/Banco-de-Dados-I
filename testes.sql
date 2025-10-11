@@ -1,4 +1,4 @@
---teste1
+--teste1--
 Create table departamento
 (id_departamento NUMBER,
  nome VARCHAR2(15)
@@ -7,7 +7,7 @@ Create table departamento
 select *
 from departamento;
 
---dicionário; Armazena meta dados ou seja dados sobre dados. Conjunto de tabelas que tem as informções sobre os objetos do banco de dados;
+--dicionário; Armazena meta dados ou seja dados sobre dados. Conjunto de tabelas que tem as informções sobre os objetos do banco de dados;--
 
 select table_name
 from user_tables;
@@ -26,9 +26,9 @@ values(1,'Rh');
 select * 
 from departamento;
 
---Porque não deu erro??
+--Porque não deu erro??--
 
---Teste 2
+--Teste 2--
 
 drop table departamento;
 
@@ -46,9 +46,9 @@ values(1,'Vendas');
 insert into departamento(id_departamento,nome)
 values(1,'Rh');
 
---Porque o segundo comando deu erro?
+--Porque o segundo comando deu erro?--
 
---teste3
+--teste3--
 
 drop table departamento;
 
@@ -65,10 +65,10 @@ insert into departamento(id_departamento,nome) values(1,'Rh');
 select *
 from departamento;
 
---O segundo insert funcionou? 
---Qual a diferença do teste 2 para o teste3
+--O segundo insert funcionou?--
+--Qual a diferença do teste 2 para o teste3--
 
---teste 4
+--teste 4--
 
 drop table departamento;
 
@@ -78,9 +78,9 @@ create table departamento
   constraint PK_departamento primary key (id_departamento)
 );
 
---A declaração acima é equivalente a do teste 3
+--A declaração acima é equivalente a do teste 3--
 
--- Teste 5
+--Teste 5--
 
 drop table departamento;
 
@@ -103,7 +103,7 @@ insert into departamento(id_departamento,nome) values (2, 'Rh');
 select *
 from departamento;
 
--- Teste 6
+--Teste 6--
 
 drop table departamento;
 
@@ -123,10 +123,10 @@ alter table departamento add localizacao varchar2(10);
 
 insert into departamento values (2, 'Rh');
 
---Qual a diferença destes dos testes 5 e 6? Porque o insert acima não funcionou?
+--Qual a diferença destes dos testes 5 e 6? Porque o insert acima não funcionou?--
 
 
--- Teste 7
+--Teste 7--
 
 drop table departamento;
 
@@ -159,12 +159,12 @@ values(101,'Pedro',2000,1);
 insert into funcionario(id_funcionario,nome,salario,id_departamento)
 values(102,'Maria',5000,1);
 
---Porque este insert vai dar erro??
+--Porque este insert vai dar erro??--
 
 insert into funcionario(id_funcionario,nome,salario,id_departamento)
 values(103,'Ana',3000,3);
 
--- Teste 8
+--Teste 8--
 
 drop table funcionario;
 drop table departamento;
@@ -196,7 +196,7 @@ values(101,'Pedro',2000,1);
 insert into funcionario(id_funcionario,nome,salario,id_departamento)
 values(102,'Maria',5000,1);
 
--- Teste 9
+--Teste 9--
 
 drop table funcionario;
 drop table departamento;
@@ -232,14 +232,14 @@ values(101,'Pedro',2000,1);
 insert into funcionario(id_funcionario,nome,salario,id_departamento)
 values(102,'Maria',5000,1);
 
--- teste10
+--teste10--
 Colocar os comandos do teste9 em um arquivo e executar
 
 @<caminho>\nome_arquivo
 
 @C:\Users\tanis\Downloads\teste.txt
 
---teste11
+--teste11--
 
 
 drop table funcionario;
@@ -315,18 +315,18 @@ from funcionario;
 select distinct id_departamento
 from funcionario;
 
---teste 12
+--teste 12--
 
 drop table departamnto;
 
 Porque deu erro??
 
--- teste13
+--teste13--
 
 drop table funcionario;
 drop table departamento;
 
--- teste14
+--teste14--
 
 
 Create table departamento
