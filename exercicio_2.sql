@@ -1,3 +1,4 @@
+-----------------------------------------------------------------------------------------
 # insert CLiente
 
 insert into cliente(id_cliente, nome, endereco, telefone)
