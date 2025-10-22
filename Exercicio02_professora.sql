@@ -25,12 +25,10 @@
 --4. Apresentar o código do pedido, o código do produto, 
 --   o nome do produto, o preço de venda, ordenar pelo código do pedido.
 
-	select pedido_produto.id_pedido, pedido_produto.id_produto, produto.nome, 
-        pedido_produto.valor_venda
-	from pedido_produto 
-          inner join produto on pedido_produto.id_produto = produto.id_produto 
-        order by pedido_produto.id_pedido;
-
+	select pp.id_pedido, pp.id_produto, produto.nome, pp.valor_venda
+	from pedido_produto pp
+    inner join produto on pp.id_produto = produto.id_produto 
+    order by pp.id_pedido;
 
 --5. Apresentar os nomes dos produtos que foram pedidos em quantidade superior a 10.
 
