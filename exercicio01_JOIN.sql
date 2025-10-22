@@ -9,11 +9,9 @@ insert into cargo
 insert into cargo 
   values(401,'Operador');
 
-alter table funcionario
-  add id_cargo number;
+alter table funcionario add id_cargo number;
 
-alter table funcionario 
-  add constraint fk_cargo foreign key(id_cargo) references cargo;
+alter table funcionario add constraint fk_cargo foreign key(id_cargo) references cargo;
 
 update funcionario 
   set id_cargo=400
