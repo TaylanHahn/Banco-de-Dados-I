@@ -1,3 +1,5 @@
+# CÓDIGOS INSERT
+
 insert into cliente(id_cliente, nome, endereco, 
 telefone) values(s_cliente.nextval, 'Pedro', 
 'RuaA', '1111-1111');
