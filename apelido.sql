@@ -4,3 +4,4 @@ on f.id_departamento = d.id_departamento;
 
 -- É possível dar um apelido (como uma variavel local) para a tabela. 
 -- No caso, funcionario agora é 'f' e departamento 'd'
+-- Se usar em um, NÃO é obrigatório usar em outros SELECTS
