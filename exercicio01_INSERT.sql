@@ -1,5 +1,5 @@
 # CÓDIGOS INSERT
-
+---------------------------------------------
 insert into cliente(id_cliente, nome, endereco, 
 telefone) values(s_cliente.nextval, 'Pedro', 
 'RuaA', '1111-1111');
@@ -56,6 +56,5 @@ insert into pedido_produto(id_pedido, id_produto, valor_venda,quantidade)
 insert into pedido_produto(id_pedido, id_produto, valor_venda,quantidade)
   values(302, 200, 800,20);
 
-insert into pedido_produto(id_pedido, id_produto, 
-
-valor_venda,quantidade) values(303, 201, 180,30);
+insert into pedido_produto(id_pedido, id_produto, valor_venda,quantidade)
+  values(303, 201, 180,30);
